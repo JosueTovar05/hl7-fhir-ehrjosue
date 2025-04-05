@@ -45,7 +45,7 @@ def display_patient(patient):
 # Ejemplo de uso
 if __name__ == "__main__":
     # Cadena de conexión a MongoDB (reemplaza con tu propia cadena de conexión)
-    uri = "mongodb+srv://Josue:<Josue>@cluster0.6lb9b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    uri = "mongodb+srv://Josue:Josue@cluster0.6lb9b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
     # Nombre de la base de datos y la colección
     db_name = "proyectoHIS"
