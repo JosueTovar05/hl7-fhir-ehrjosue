@@ -43,8 +43,8 @@ if __name__ == "__main__":
     uri = "mongodb+srv://Josue:Josue@cluster0.6lb9b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
     # Nombre de la base de datos y la colección
-    db_name = "SamplePatientService"
-    collection_name = "patients"
+    db_name = "proyectoHIS"
+    collection_name = "pacients"
 
     # Conectar a MongoDB
     collection = connect_to_mongodb(uri, db_name, collection_name)
